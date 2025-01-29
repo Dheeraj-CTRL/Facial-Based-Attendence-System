@@ -1,4 +1,4 @@
 # Facial-Based-Attendence-System
-A Python-based facial recognition attendance system automates tracking by detecting and matching student faces from provided images. 
-It checks scheduled students per the timetable, marks attendance upon recognition, and 
-logs it in an Excel sheet. This system simplifies attendance, reduces errors, and keeps records organized.
+This project presents a face-recognition-based attendance system designed to automate the attendance process in academic settings. By utilizing computer vision, face detection, and recognition technologies, the system ensures efficiency, minimizes human error, and improves record-keeping accuracy. Built using Python libraries such as OpenCV and face_recognition, the system performs real-time face detection and matching. Additionally, it incorporates a dynamic timetable feature to align the attendance process with active class schedules. 
+
+To enhance security and reliability, the system implements RGB-to-BGR conversion to ensure real-time frames match accurately with pre-stored face encodings, reducing the chances of proxies. This measure, along with the integration of class timetables, prevents unauthorized attendance marking and ensures attendance is recorded only during valid class hours. Combining robust facial recognition with scheduling and security enhancements, this project provides a modernized solution for attendance management in educational institutions.
